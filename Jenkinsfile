@@ -6,7 +6,7 @@ stages {
        echo "mvn package"
               echo "mvn clean"
        }
-       }  stage('---package---') {
+       }  stage('---clean---') {
        steps {
    
               echo "mvn clean"
