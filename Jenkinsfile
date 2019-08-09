@@ -6,11 +6,7 @@ stages {
      echo "mvn clean"
      }
      }
-     stage('---test---'){
-     steps {
-       echo "mvn test"
-       }
-       }
+   
       
        }
 }
