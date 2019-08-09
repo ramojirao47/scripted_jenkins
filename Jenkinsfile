@@ -11,10 +11,6 @@ stages {
        echo "mvn test"
        }
        }
-       stage('---package---') {
-       steps {
-       echo "mvn package"
-       }
-       }
+      
        }
 }
